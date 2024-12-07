@@ -1,0 +1,26 @@
+{% extends "products/base.html" %}
+
+{% block title %}Home - My Ecommerce Store{% endblock %}
+
+{% block content %}
+    <h1>Welcome to My Ecommerce Store</h1>
+    <p>Discover the best products at unbeatable prices!</p>
+
+    <!-- Featured Products Section -->
+    <section>
+        <h2>Featured Products</h2>
+        <ul>
+            {% for product in featured_products %}
+                <li>
+                    <a href="/{{ product.slug }}/">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                        <p>{{ product.name }}</p>
+                        <p>KES &nbsp; {{ product.price }}</p>
+                    </a>
+                </li>
+            {% empty %}
+                <li>No featured products available.</li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endblock content%}

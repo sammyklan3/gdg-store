@@ -1,0 +1,17 @@
+{% extends "products/base.html" %}
+{% block content %}
+<h1>Products</h1>
+<ul>
+    {% for product in products %}
+        <li>
+            <div>
+                <a href="/{{ product.slug }}/">
+                    <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                    {{ product.name }}
+                    <p>KES &nbsp; {{ product.price }}</p> 
+                </a> 
+            </div>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

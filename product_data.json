@@ -1,0 +1,54 @@
+[
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "name": "Personal Care",
+        "slug": "personal-care",
+        "description": "Personal Care Items are products designed to maintain and enhance the hygiene, grooming, and well-being of individuals. This category includes a wide range of everyday essentials, such as skincare, hair care, oral hygiene, body care, and grooming tools. Personal care items are crafted to improve self-care routines, boost confidence, and promote overall health. Whether it's moisturizing lotions, shampoo and conditioner, deodorants, shaving products, or toothpaste, these items are essential for maintaining personal cleanliness and comfort.",
+        "image": "categories/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "name": "Appliances",
+        "slug": "appliances",
+        "description": "Appliances are essential devices designed to make everyday tasks more efficient, convenient, and enjoyable. From kitchen essentials like refrigerators, ovens, and blenders to home comfort items like air conditioners and heaters, appliances play a vital role in modern living. They combine functionality with innovative technology to simplify cooking, cleaning, and maintaining a comfortable living environment. Whether you're upgrading your home or starting fresh, appliances are indispensable tools for a well-equipped lifestyle.",
+        "image": "categories/unnamed-2024-09-18T110615.541.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "Revitalizing Aloe Vera Body Lotion",
+        "slug": "revitalizing-aloe-vera-body-lotion",
+        "category": 1,
+        "description": "Experience the ultimate hydration with our Revitalizing Aloe Vera Body Lotion, enriched with natural aloe vera and vitamin E to soothe and nourish your skin. This lightweight, non-greasy formula absorbs quickly, leaving your skin feeling soft, smooth, and refreshed all day long. Perfect for daily use on all skin types.\r\n\r\nKey Features:\r\n\r\nDeep hydration with aloe vera extract.\r\nEnriched with vitamin E for skin nourishment.\r\nNon-greasy and fast-absorbing formula.\r\nSuitable for all skin types.",
+        "price": "1500.00",
+        "stock": 53,
+        "image": "products/127815_d1377e4d.512x512.webp",
+        "is_active": true,
+        "created_at": "2024-12-07T14:50:58.179Z",
+        "updated_at": "2024-12-07T14:50:58.179Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "name": "Premium Stainless Steel Air Fryer",
+        "slug": "premium-stainless-steel-air-fryer",
+        "category": 2,
+        "description": "Revolutionize your cooking with the Premium Stainless Steel Air Fryer! This versatile appliance allows you to prepare healthier meals with little to no oil, while still achieving the crispy textures you love. With its sleek design and easy-to-use digital controls, this air fryer is perfect for roasting, frying, baking, and reheating.\r\n\r\nKey Features:\r\n\r\nCapacity: 5.5 liters – ideal for family-sized meals.\r\nTechnology: Advanced rapid air circulation for even cooking.\r\nSettings: Multiple preset programs for fries, chicken, fish, and more.\r\nEase of Use: Digital touchscreen interface with temperature and timer controls.\r\nEasy Cleaning: Non-stick, dishwasher-safe basket.",
+        "price": "16999.00",
+        "stock": 11,
+        "image": "products/steel-air-fryer.webp",
+        "is_active": true,
+        "created_at": "2024-12-07T15:44:27.395Z",
+        "updated_at": "2024-12-07T15:44:27.395Z"
+    }
+}
+]
